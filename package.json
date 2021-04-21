@@ -1,0 +1,30 @@
+{
+  "name": "hades",
+  "version": "0.1.0",
+  "description": "Self-hosted URL shortner server built with anger and pain.",
+  "keywords": ["URL-Shortner", "short url", "nodejs", "mongodb", "mongoose", "express"],
+  "author": "Amirali Ahmadi",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "backpack dev set development",
+    "production": "node ./build/main.js --production",
+    "build": "backpack build",
+    "start": "backpack dev set development"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "backpack-core": "^0.8.4",
+    "chalk": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.9.6",
+    "mongoose-error-parser": "^1.0.0",
+    "mongoose-timestamp": "^0.6.0",
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.2",
+    "response-time": "^2.3.2",
+    "shortid": "^2.2.15",
+  }
+}
